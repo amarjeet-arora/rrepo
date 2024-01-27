@@ -16,7 +16,7 @@ setUsers([
     ...users,{uname,email,password}
    
     ])
-    axios.post('https://demo-ser.onrender.com//adduser',...users,"Content-Type:application/json")
+    axios.post('https://demo-ser.onrender.com/adduser',...users,"Content-Type:application/json")
     .then((response)=>{
         console.log(response.data);
         console.log(...users);
