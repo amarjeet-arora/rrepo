@@ -2,7 +2,7 @@ import axios from 'axios'
 import {Component} from 'react';
 
 //const URL='https://jsonplaceholder.typicode.com/users'
-const URL='http://localhost:4000/loadusers'
+const URL='https://demo-ser.onrender.com/loadusers'
 export class AxiosDemo extends Component {
 
     state={
